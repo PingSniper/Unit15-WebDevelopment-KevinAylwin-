@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Menu - Paw & Whiskers Café</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Quick local styling specific to the menu page grid layout */
+    .menu-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    
+    .back-link {
+      display: inline-block;
+      color: #d9745b;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .menu-section-title {
+      color: #3d342e;
+      text-transform: uppercase;
+      font-size: 2rem;
+      border-bottom: 2px solid #ecdcc9;
+      padding-bottom: 10px;
+      margin: 40px 0 20px 0;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .menu-item {
+      background: #fbf0e3;
+      padding: 20px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .item-info h3 {
+      color: #3d342e;
+      margin-bottom: 6px;
+    }
+
+    .item-info p {
+      color: #61554d;
+      font-size: 0.9rem;
+    }
+
+    .item-price {
+      font-weight: bold;
+      color: #d9745b;
+    }
+  </style>
+</head>
+<body style="background: #f4eae1;">
+
+  <div class="menu-container">
+    <!-- Back Navigation Link -->
+    <a href="index.html" class="back-link">← BACK TO HOME</a>
+    
+    <h1 style="color: #3d342e; font-size: 3rem;">OUR COZY MENU</h1>
+
+    <!-- Coffees Section -->
+    <h2 class="menu-section-title">Whiskered Brews</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <div class="item-info">
+          <h3>Cat-puccino</h3>
+          <p>Espresso with velvety frothed milk and a cinnamon paw print.</p>
+        </div>
+        <span class="item-price">$4.50</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <h3>Purr-over Coffee</h3>
+          <p>Slowly brewed single-origin beans for a smooth, rich finish.</p>
+        </div>
+        <span class="item-price">$4.00</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <h3>Meow-cha Latte</h3>
+          <p>Rich chocolate espresso with custom steamed cream.</p>
+        </div>
+        <span class="item-price">$5.00</span>
+      </div>
+    </div>
+
+    <!-- Snacks Section -->
+    <h2 class="menu-section-title">Human Treats</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <div class="item-info">
+          <h3>Cat-Shaped Scones</h3>
+          <p>Warm blueberry scones served with dynamic clotted cream.</p>
+        </div>
+        <span class="item-price">$3.75</span>
+      </div>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <h3>Calico Cheesecake</h3>
+          <p>Swirled marble cheesecake with a crumbly graham crust.</p>
+        </div>
+        <span class="item-price">$5.50</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
