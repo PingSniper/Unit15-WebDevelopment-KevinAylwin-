@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link href="css/style.css" rel="stylesheet">
-    <script> src="scripts/javascript.js"></script>
-    <title>My First Web Page</title>
-  </head>
-  <body>
-    <h1>Home Page</h1>
-    <p>This is the Home Page</p>
-    <button onclick="sayHi()" >Click Me</button>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paw & Whiskers Café</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Paw &<br />
+        whiskers<br />
+        <span>Café</span>
+      </h1>
+
+      <p>
+        A cozy space where coffee lovers and pet parents connect, share stories, and enjoy quality time with their furry friends.
+      </p>
+
+      <button><div class="hero-buttons">
+  <!-- Inside index.html -->
+<a href="reserve.html" style="text-decoration: none;">
+  <button class="btn-primary">RESERVE A TABLE</button>
+</a>
+
+  <a href="menu.html" style="text-decoration: none;">
+  <button class="btn-secondary">MENU</button>
+</a>
+
+  <button class="btn-secondary">ANIMAL HEALTH CARE RULES</button>
+</div>
+</button>
+    </div>
+
+    <div class="hero-image">
+      <img src="cat.png" alt="Cute cat illustration" />
+    </div>
+  </section>
+</body>
 </html>
